@@ -124,7 +124,7 @@ header>div img {
 }
 
 
-@media (max-width: 576px)  
+@media (max-width: 764px)  
 {
 
     .gridbox {
@@ -173,14 +173,15 @@ header>div img {
     }
 
     .items img {
-        width: 100%;
+        width: 80%;
         padding: 5px;
+
 
     }
 
     header>div img {
 
-        width:100%;
+        width: 40%;
         object-fit:cover;
     }
 
@@ -189,24 +190,19 @@ header>div img {
         margin-top: 10px;
     }
 
-    .clothes>img {
-
-        object-fit: cover;
-    }
-
-    header>div img {
-
-        width: 40%;
-    }
-    
-
 }
+@media (max-width: 856px) {
 
-@media (max-width: 992px)  {
+    .items-grid {
 
-    .card-title,
-    .card-text {
+        display: grid;
+        grid-template-columns: 1fr;
 
-        font-size: 10px;
     }
+
+    .items img {
+        width: 50%;
+        padding: 5px;
+    }
+
 }
